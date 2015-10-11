@@ -84,7 +84,7 @@
 
     qrcodeNavigate.addEventListener("click", function() {
       // I really want this to be a link.
-      window.location = this.currentUrl;
+      window.location = '/sesi/draw.html?img='+qrcodeData.innerText;
       this.closeDialog();
     }.bind(this));
 
