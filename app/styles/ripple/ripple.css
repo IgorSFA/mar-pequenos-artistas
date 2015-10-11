@@ -1,0 +1,65 @@
+/*
+Error: Undefined variable: "$ripple-bg-color".
+        on line 6 of _ripple.scss
+
+1: @import "../palette/palette";
+2: @import "../animation/animation";
+3: 
+4: 
+5: .wsk-ripple {
+6:   background       : $ripple-bg-color;
+7:   border-radius    : 50%;
+8:   height           : 50px;
+9:   left             : 0;
+10:   opacity          : 0;
+11:   pointer-events   : none;
+
+Backtrace:
+_ripple.scss:6
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/script/tree/node.rb:50:in `perform'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:431:in `map'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:412:in `run'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+/home/igorsfa/.rvm/gems/ruby-2.2.0/gems/sass-3.4.19/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$ripple-bg-color\".\A         on line 6 of _ripple.scss\A \A 1: @import \"../palette/palette\";\A 2: @import \"../animation/animation\";\A 3: \A 4: \A 5: .wsk-ripple {\A 6:   background       : $ripple-bg-color;\A 7:   border-radius    : 50%;\A 8:   height           : 50px;\A 9:   left             : 0;\A 10:   opacity          : 0;\A 11:   pointer-events   : none;"; }
